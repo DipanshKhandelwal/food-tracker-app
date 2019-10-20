@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NuG-Lf-rXT">
-                                <rect key="frame" x="20" y="64" width="374" height="482.5"/>
+                                <rect key="frame" x="20" y="64" width="374" height="534.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uNi-bg-8bh">
                                         <rect key="frame" x="0.0" y="0.0" width="86.5" height="20.5"/>
@@ -46,6 +46,14 @@
                                             <outletCollection property="gestureRecognizers" destination="UfM-Iz-2xt" appends="YES" id="zdG-wK-KNd"/>
                                         </connections>
                                     </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="RbP-JF-Oo7" customClass="RatingControl" customModule="food_tracker_app" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="490.5" width="252" height="44"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="starCount">
+                                                <integer key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </stackView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="LLN-ga-dNp" secondAttribute="trailing" id="hl8-ie-92F"/>
@@ -79,6 +87,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Default" width="128" height="128"/>
+        <image name="Default" width="256" height="256"/>
     </resources>
 </document>
