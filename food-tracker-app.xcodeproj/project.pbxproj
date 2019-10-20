@@ -14,6 +14,7 @@
 		0B04A69F235B7233006E556A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B04A69E235B7233006E556A /* Assets.xcassets */; };
 		0B04A6A2235B7233006E556A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B04A6A0235B7233006E556A /* LaunchScreen.storyboard */; };
 		0B99E20A235C23FA00EAD6EA /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B99E209235C23FA00EAD6EA /* RatingControl.swift */; };
+		0B99E20C235C326200EAD6EA /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B99E20B235C326200EAD6EA /* Meal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0B04A6A1235B7233006E556A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B04A6A3235B7233006E556A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B99E209235C23FA00EAD6EA /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		0B99E20B235C326200EAD6EA /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				0B04A697235B7232006E556A /* SceneDelegate.swift */,
 				0B04A699235B7232006E556A /* ViewController.swift */,
 				0B04A69B235B7232006E556A /* Main.storyboard */,
+				0B99E20B235C326200EAD6EA /* Meal.swift */,
 				0B04A69E235B7233006E556A /* Assets.xcassets */,
 				0B99E209235C23FA00EAD6EA /* RatingControl.swift */,
 				0B04A6A0235B7233006E556A /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B99E20C235C326200EAD6EA /* Meal.swift in Sources */,
 				0B99E20A235C23FA00EAD6EA /* RatingControl.swift in Sources */,
 				0B04A69A235B7232006E556A /* ViewController.swift in Sources */,
 				0B04A696235B7232006E556A /* AppDelegate.swift in Sources */,
